@@ -11,7 +11,7 @@ imagem = PhotoImage(file="facebook.png") #VARIÁVEL QUE RECEBERÁ O VALOR DA IMA
 foto = Label(root, image=imagem, bg="blue") # NÃO SE CONFUNDA, A IMAGEM FOI COLOCADA EM UMA LABEL SENÃO NÂO TERIA LUGAR P/ FICAR NA TELA
 foto.place(x=150,y=10) # LOCALIDADE NA TELA(CORDENADAS), QUE NESTE CASO ESTÁ PADRÃO
 
-btLogin = Button(root, text="ENTRAR", bg="blue", fg="white", command= Login) #BOTÃO ENTRAR
+btLogin = Button(root, text="ENTRAR", bg="blue", fg="white") #BOTÃO ENTRAR
 btLogin.place(x=200, y=400)
 
 
