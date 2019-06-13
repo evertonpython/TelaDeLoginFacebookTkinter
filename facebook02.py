@@ -1,3 +1,5 @@
+# Projeto desenvolvido por Everton Sousa 
+# GitHub: github.com/evertonpython
 #coding=utf-8
 from tkinter import * # IMPORTAÇÃO DA BIBLIOTECA
 
