@@ -22,7 +22,7 @@ def Login():
         logado = Label(janela, text="SEJA BEM VINDO", bg="blue", fg="white")
         logado.place(x=150,y=200)
 
-        btSair = Button(janela, text="SAIR", bg="red", fg="white", command= Sair)
+        btSair = Button(janela, text="SAIR", bg="red", fg="white")
         btSair.place(x=330,y=330)
 
         janela.title("FEED")
