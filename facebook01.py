@@ -9,7 +9,7 @@ frame.pack() # LOCALIDADE PADRÃO PARA O FRAME
 
 imagem = PhotoImage(file="facebook.png") #VARIÁVEL QUE RECEBERÁ O VALOR DA IMAGEM/LOCALIDADE E TYPE(PhotoImage)
 foto = Label(root, image=imagem, bg="blue") # NÃO SE CONFUNDA, A IMAGEM FOI COLOCADA EM UMA LABEL SENÃO NÂO TERIA LUGAR P/ FICAR NA TELA
-foto.place(x=150,y=10) # LOCALIDADE NA TELA(CORDENADAS), QUE NESTE CASO ESTÁ PADRÃO
+foto.place(x=150,y=10) # LOCALIDADE NA TELA(CORDENADAS), QUE NESTE CASO A HORIZONTAL ESTÁ EM 150 E VERTICAL EM 10
 
 btLogin = Button(root, text="ENTRAR", bg="blue", fg="white") #BOTÃO ENTRAR
 btLogin.place(x=200, y=400)
